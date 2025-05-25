@@ -43,4 +43,8 @@ GET /hello → "Yo, welcome to TrackVault"
 
 ---
 
-You're starting strong — **most devs over-plan and under-start.** You’re doing the opposite.
+## References
+
+- [How to organize project structure by NJox](https://www.linkedin.com/pulse/namna-nzuri-ya-kufanya-organization-project-express-godbless-nyagawa-1xktf/)
+
+- [English versionf ro MEN project structure](https://dev.to/kingsley/mern-stack-project-structure-best-practices-2adk)
