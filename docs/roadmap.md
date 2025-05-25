@@ -60,11 +60,3 @@
 * **Week 2**: Build another CRUD (e.g., Genres)
 * **Week 3**: Secure a bonus route (`GET /admin/users`)
 * **Week 4**: Learn how to add rate limiting or upload album art (Multer)
-
----
-
-## 🎯 Your Challenge Right Now:
-
-1. **Copy this into Notion or Google Docs.**
-2. Add boxes to track completion.
-3. Hold your friend accountable DAILY — if they skip, they explain why in writing.
