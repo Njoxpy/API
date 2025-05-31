@@ -1,31 +1,29 @@
 // import express and create router instane
-const express = require("express")
-const userRoutes = express.Router()
+const express = require("express");
+const userRoutes = express.Router();
 
 // imort controllers
 const {
-    createUser,
-    getUsers, 
-} = require("../controller/userController")
+  createUser,
+  getUsers,
+  getUser,
+  deleteUser,
+  updateUser,
+} = require("../controller/userController");
 
 // create
-userRoutes.post("/", createUser)
+userRoutes.post("/", createUser);
 
-// read: all users, 
-userRoutes.get("/", getUsers)
+// read: all users,
+userRoutes.get("/", getUsers);
 
-userRoutes.get("/:id", (req, res) => {
-    res.json("Get user by id")
-})
+// get by id
+userRoutes.get("/:id", getUser);
 
 // update
-userRoutes.patch("/:id", (req, res) => {
-    res.json("Update user")
-})
+userRoutes.patch("/:id", updateUser);
 
 // delete
-userRoutes.delete("/:id", (req, res) => {
-    res.json("Delete user by id:")
-})
+userRoutes.delete("/:id", deleteUser);
 
-module.exports = userRoutes
+module.exports = userRoutes;
